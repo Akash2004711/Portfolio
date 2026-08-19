@@ -1,5 +1,4 @@
 import { projectsData } from '../../data/projects'
-import { ExternalLink } from 'lucide-react'
 
 const ProjectCard = ({ project }: { project: any }) => {
   return (
