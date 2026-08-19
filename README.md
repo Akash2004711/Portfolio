@@ -2,7 +2,7 @@
 
 A premium, interactive portfolio website showcasing expertise in Python, data analytics, backend development, and GenAI Quality Assurance.
 
-**Live Demo:** [akashnittur.dev](https://akashnittur.dev)  
+**Live Demo:** https://portfolio-k248-sigma.vercel.app/
 **Target Role:** QA Intern / GenAI QA (Impact Analytics, Bangalore)
 
 ---
