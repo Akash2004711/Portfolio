@@ -43,12 +43,7 @@ const ProjectCard = ({ project }: { project: any }) => {
         </div>
 
         {/* CTA */}
-        {project.featured && (
-          <button className="w-full btn-primary flex items-center justify-center gap-2">
-            View Case Study
-            <ExternalLink size={18} />
-          </button>
-        )}
+
       </div>
     </div>
   )

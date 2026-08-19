@@ -86,10 +86,14 @@ export default function Hero() {
             <a href="#genai-qa" className="btn-secondary inline-flex items-center justify-center gap-2">
               View GenAI QA Project
             </a>
-            <button className="btn-tertiary inline-flex items-center justify-center gap-2">
+            <a
+              href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID"
+              className="btn-tertiary inline-flex items-center justify-center gap-2"
+              download="Akash_Nittur_Resume.pdf"
+            >
               <Download size={18} />
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
 

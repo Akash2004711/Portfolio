@@ -137,13 +137,40 @@ export default function GenAILabSection() {
     <section id="genai-qa" className="section-padding bg-darker">
       <div className="container-custom">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-gradient">GenAI QA Lab</span>
-          </h2>
+          
+          {/* Project Title */}
+          <a
+            href="https://your-project.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block group"
+            title="Open GenAI QA Lab Project"
+          >
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <span className="text-gradient group-hover:opacity-80 transition-opacity">
+                GenAI QA Lab
+              </span>
+            </h2>
+          </a>
+
+          {/* Description */}
           <p className="text-white/60 max-w-2xl mx-auto">
-            Interactive exploration of key QA testing strategies for AI agents, LLMs, and autonomous systems.
+            Interactive exploration of key QA testing strategies for AI agents,
+            LLMs, and autonomous systems.
           </p>
+
+          {/* Project Link Button */}
+          <div className="mt-6 flex justify-center">
+            <a
+              href="https://agent-gaurd-hvhu.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-tertiary inline-flex items-center justify-center gap-2"
+            >
+              View Project
+            </a>
         </div>
+      </div>
 
         <div className="grid md:grid-cols-2 gap-6">
           {qaLabTopics.map((card, idx) => (

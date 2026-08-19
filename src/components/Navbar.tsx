@@ -33,7 +33,7 @@ export default function Navbar({ onRecruiterClick }: NavbarProps) {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-accent to-accent-purple flex items-center justify-center">
-              <span className="text-white font-bold text-lg"><img src='https://drive.google.com/file/d/1a8gyS9Wdyas5ndJRRCRrVQHvtx4cv9Va/view?usp=sharing'/></span>
+              <span className="text-white font-bold text-lg"><img src='https://res.cloudinary.com/dkbiym058/image/upload/v1787108383/ciloilpqqgbmvudyhduh.jpg'/></span>
             </div>
             <span className="font-bold text-lg hidden sm:inline">Akash Nittur</span>
           </div>
@@ -61,17 +61,22 @@ export default function Navbar({ onRecruiterClick }: NavbarProps) {
             </button>
             
             <a
-              href="#contact"
-              className="hidden sm:flex p-2 hover:bg-white/5 rounded-lg transition-smooth"
-              title="GitHub"
+              href="https://github.com/Akash2004711"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="github-link"
+              aria-label="Visit my GitHub profile"
             >
               <GitBranch size={20} />
             </a>
             
             <a
-              href="#contact"
+              href="https://www.linkedin.com/in/akash-nittur/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden sm:flex p-2 hover:bg-white/5 rounded-lg transition-smooth"
               title="LinkedIn"
+              aria-label="LinkedIn Profile"
             >
               <Globe size={20} />
             </a>
